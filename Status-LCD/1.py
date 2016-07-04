@@ -26,5 +26,5 @@ while True:
 	#float(310) = 1023/310 = 3.3
 	ref = 15/float(3.3)
 	wert12v = wert * ref
-	wertg = round(wert12v, 3)
+	wertg = round(wert12v, 2)
 	print str(wertg)
